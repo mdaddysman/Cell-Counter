@@ -1,5 +1,5 @@
 # Cell-Counter
-The following program detects and quantifies the fluorescence intensity in HeLa cells after immunocytochemistry staining of thymine dimers staining with Alexa 488. 
+The following program detects and quantifies the fluorescence intensity in HeLa cells after immunocytochemistry staining of thymine dimers with Alexa 488. 
 
 Reference: https://doi.org/10.1016/j.bpj.2011.09.031
 
