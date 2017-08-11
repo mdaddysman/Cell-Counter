@@ -1,4 +1,4 @@
-%CellCount_Boxes.m
+%CellCount.m
 clearvars;
  
 av1=1; %width of the narrow gaussian
