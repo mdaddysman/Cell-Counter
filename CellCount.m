@@ -4,6 +4,7 @@ clearvars;
 av1=1; %width of the narrow gaussian
 av2=20; %width of the wide gaussian
 thresh=1.8; %difference between the gaussians for detection 
+cellsize = 150; %the minimum size of the cell 
 cutoff=150; 
 name='example.png';
  
@@ -14,8 +15,7 @@ xsize = 290;
 ysize = 295; 
  
 xbkg = 1;
-ybkg = 1; 
-cellsize = 150; %the minimum size of the cell  
+ybkg = 1;  
 textcolor = 'r';
  
 A = 256*uint16(imread(name));
