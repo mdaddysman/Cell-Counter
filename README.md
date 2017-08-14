@@ -32,9 +32,9 @@ ybkg = 1;
 Adjusting the variables `av1`, `av2`, and `thresh` determine the thresholding requirements to determine damaged cell nuclei.  The mask is shown in Matlab output Figure 2 (Fig. 1B). The minimum area for a cell is set by `cellsize` and the number of cells meeting this criterion are output in `cells_threshold`.   
 
 ```matlab
-av1=1; %width of the narrow gaussian
-av2=20; %width of the wide gaussian
-thresh=1.8; %difference between the gaussians for detection 
+av1 = 1; %width of the narrow gaussian
+av2 = 20; %width of the wide gaussian
+thresh = 1.8; %difference between the gaussians for detection 
 cellsize = 150; %the minimum size of the cell 
 ```
 
